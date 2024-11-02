@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password-Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="cont">
+            <div class="cont-items">
+                <input type="text" name="" id="output">
+            </div>
+            <div class="cont-items">
+                <div class="left">
+                    <label for="pass">Password Length</label>
+                </div>
+                <div class="right">
+                    <input type="number" max="10" min="2" value="10" id="total-char">
+                </div>
+               
+            </div>
+            <div class="cont-items">
+                <div class="left">
+                    <label for="upper">UpperCase</label>
+                </div>
+                <div class="right">
+                    <input type="checkbox"  id="upper-case">
+                </div>
+               
+            </div>
+    
+            <div class="cont-items">
+                <div class="left">
+                    <label for="lower">LowerCase</label>
+                </div>
+                <div class="right">
+                    <input type="checkbox" id="lower-case">
+                </div>
+               
+            </div>
+    
+            <div class="cont-items">
+                <div class="left">
+                    <label for="number">Number</label>
+                </div>
+                <div class="right">
+                    <input type="checkbox" id="number">
+                </div>
+               
+            </div>
+    
+            <div class="cont-items">
+                <div class="left">
+                    <label for="symbol">Symbols</label>
+                </div>
+                <div class="right">
+                    <input type="checkbox" id="symbol">
+                </div>
+               
+            </div>
+
+            <div class="cont-items">
+                <button id="btn">Generate Password</button>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
